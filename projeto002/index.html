@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projeto 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>verificador de idade</h1>
+    </header>
+    <section>
+        <div>
+            <label for="idnascimento">Ano de Nascimento: </label>
+            <input type="text" name="nascimento" id="idnascimento" min="1900" max="2025">
+            <p>Sexo: 
+            <input type="radio" name="sexo" id="idmasc" checked>
+            <label for="idsexo">Masculino</label>
+            <input type="radio" name="sexo" id="idfem">
+            <label for="idsexo">Feminino</label>
+        </p>
+        <input type="button" value="verificar" onclick="verificar()">
+
+        </div>
+        <div id="idresp">
+            Preencha os dados acima para ter o resultado!
+        </div>
+    </section>
+    <footer>
+        <p>&copy; PabloFernan</p>
+    </footer>
+</body>
+<script src="script.js"></script>
+</html>
